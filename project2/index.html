@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avada Builder Template</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top site-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">snigdho</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#builder">Builder</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonial">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        </ul>
+        <div class="d-flex gap-2">
+          <a class="btn btn-outline-dark btn-sm px-3" href="#cta">View Demo</a>
+          <a class="btn btn-primary btn-sm px-3" href="#cta">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="section hero-section">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <span class="badge hero-badge">1,000,000+ Users</span>
+              <span class="badge text-bg-light border">ThemeForest Ready</span>
+            </div>
+            <h1 class="display-5 fw-extrabold mb-3">The modern SaaS landing page you can ship today</h1>
+            <p class="lead text-gray mb-4">Build a pixel-clean website builder landing page with Bootstrap 5, Inter typography, and a premium Avada-style layout.</p>
+            <div class="d-flex flex-column flex-sm-row gap-3">
+              <a class="btn btn-primary btn-lg" href="#cta">Start Designing</a>
+              <a class="btn btn-outline-dark btn-lg" href="#features">Explore Features</a>
+            </div>
+            <div class="mt-4 d-flex flex-wrap gap-3 small text-gray">
+              <span class="pill">No frameworks</span>
+              <span class="pill">Mobile-first</span>
+              <span class="pill">Clean components</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="mockup-card">
+              <img src="img/1.jpg" class="img-fluid w-100" alt="Dashboard preview" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-muted">
+      <div class="container">
+        <div class="row mb-4 align-items-end gy-2">
+          <div class="col-lg-7">
+            <h2 class="h1 fw-extrabold mb-2">Built for every role on your team</h2>
+            <p class="text-gray mb-0">Three persona cards with color-coded backgrounds, soft shadows, and a premium hover lift.</p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="persona-card bg-sky lift-on-hover">
+              <div class="icon-bubble bg-white">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 17V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M8 21h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M9 9h6M9 12h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="h4 fw-bold mb-2">Developer</h3>
+              <p class="text-gray mb-0">Ship fast with clean markup, Bootstrap components, and predictable spacing that scales.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="persona-card bg-mint lift-on-hover">
+              <div class="icon-bubble bg-white">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 6h16M4 12h10M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M18 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="h4 fw-bold mb-2">Marketer</h3>
+              <p class="text-gray mb-0">Drop in content and convert with strong typography, CTA patterns, and social proof.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="persona-card bg-yellow lift-on-hover">
+              <div class="icon-bubble bg-white">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 3l3 6 6 .9-4.5 4.4 1.1 6.4L12 18.8 6.4 21.1l1.1-6.4L3 9.9 9 9l3-6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="h4 fw-bold mb-2">Professional</h3>
+              <p class="text-gray mb-0">Present a premium brand with a ThemeForest-friendly structure and polished UI.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="builder" class="section">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6">
+            <h2 class="h1 fw-extrabold mb-3">A builder section that sells the workflow</h2>
+            <p class="text-gray mb-4">Use a simple feature checklist on the left and a screenshot/mockup on the right. Perfect for SaaS and template demos.</p>
+
+            <div class="feature-list">
+              <div class="feature-list-item">
+                <span class="check-dot" aria-hidden="true"></span>
+                <div>
+                  <div class="fw-semibold">Drag-and-drop layout blocks</div>
+                  <div class="text-gray small">Organize sections fast with consistent spacing and components.</div>
+                </div>
+              </div>
+              <div class="feature-list-item">
+                <span class="check-dot" aria-hidden="true"></span>
+                <div>
+                  <div class="fw-semibold">Reusable design tokens</div>
+                  <div class="text-gray small">Colors and spacing are controlled via CSS variables.</div>
+                </div>
+              </div>
+              <div class="feature-list-item">
+                <span class="check-dot" aria-hidden="true"></span>
+                <div>
+                  <div class="fw-semibold">Clean, ThemeForest-friendly code</div>
+                  <div class="text-gray small">No build step needed. Works locally via double-click.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <a class="btn btn-primary" href="#allinone">See all features</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="mockup-card">
+              <img src="assets/images/builder-preview.png" class="img-fluid" alt="Builder preview" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="allinone" class="section section-muted">
+      <div class="container">
+        <div class="row mb-4 align-items-end gy-2">
+          <div class="col-lg-7">
+            <h2 class="h1 fw-extrabold mb-2">All-in-one features grid</h2>
+            <p class="text-gray mb-0">Six cards with icons and hover animations. Keep the copy short and scannable.</p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card lift-on-hover">
+              <div class="icon-bubble bg-light-green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 6v12M6 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="h5 fw-bold mb-2">Layout Library</h3>
+              <p class="text-gray mb-0">Prebuilt sections to assemble a landing page in minutes.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card lift-on-hover">
+              <div class="icon-bubble bg-sky">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 12a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M12 12l4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M6 20h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="h5 fw-bold mb-2">Performance First</h3>
+              <p class="text-gray mb-0">Bootstrap 5 + minimal JS for fast loads and clean UX.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card lift-on-hover">
+              <div class="icon-bubble bg-mint">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 10V7a5 5 0 0 1 10 0v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M6 10h12v11H6V10Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="h5 fw-bold mb-2">Secure Patterns</h3>
+              <p class="text-gray mb-0">Safe vanilla JS interactions, no risky dependencies.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card lift-on-hover">
+              <div class="icon-bubble bg-yellow">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2l3 7h7l-5.5 4 2.2 7L12 16.9 5.3 20l2.2-7L2 9h7l3-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="h5 fw-bold mb-2">Premium UI</h3>
+              <p class="text-gray mb-0">Soft shadows, balanced spacing, and bold headings.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card lift-on-hover">
+              <div class="icon-bubble bg-light-green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 7h16M7 4v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M10 10h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="h5 fw-bold mb-2">Modular Sections</h3>
+              <p class="text-gray mb-0">Reorder sections without breaking layout or spacing.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="feature-card lift-on-hover">
+              <div class="icon-bubble bg-sky">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 18V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M8 14l3-3 3 2 4-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="h5 fw-bold mb-2">Conversion Blocks</h3>
+              <p class="text-gray mb-0">CTA sections, social proof, and testimonials included.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proof" class="section">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-5">
+            <div class="proof-number">97%</div>
+            <div class="h3 fw-bold mb-2">Customer satisfaction</div>
+            <p class="text-gray mb-0">Trusted by teams shipping templates, marketing sites, and SaaS landing pages.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-6 col-md-4"><div class="logo-pill">Nova</div></div>
+              <div class="col-6 col-md-4"><div class="logo-pill">Pixel</div></div>
+              <div class="col-6 col-md-4"><div class="logo-pill">Bright</div></div>
+              <div class="col-6 col-md-4"><div class="logo-pill">Orbit</div></div>
+              <div class="col-6 col-md-4"><div class="logo-pill">Vanta</div></div>
+              <div class="col-6 col-md-4"><div class="logo-pill">Kite</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="section section-testimonial">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7">
+            <div class="quote-card lift-on-hover">
+              <div class="h4 fw-bold mb-3">“A clean, modern layout that feels premium and is easy to customize.”</div>
+              <p class="text-gray mb-4">The structure is ThemeForest-friendly, the spacing feels professional, and the landing page sections cover everything we needed.</p>
+              <div class="d-flex align-items-center gap-3">
+                <div class="avatar"></div>
+                <div>
+                  <div class="fw-semibold">Ayesha Rahman</div>
+                  <div class="text-gray small">Product Designer, StudioNova</div>
+                </div>
+                <div class="ms-auto logo-pill">StudioNova</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <h2 class="h1 fw-extrabold mb-2">Testimonials that build trust</h2>
+            <p class="text-gray mb-0">Use a warm yellow background, bold quote, and a company badge to match the Avada vibe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="row mb-4 align-items-end gy-2">
+          <div class="col-lg-7">
+            <h2 class="h1 fw-extrabold mb-2">Frequently asked questions</h2>
+            <p class="text-gray mb-0">Bootstrap accordion with a clean border and smooth spacing.</p>
+          </div>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                Is this template framework-free?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-gray">Yes. It uses HTML5, Bootstrap 5 via CDN, custom CSS, and vanilla JavaScript only.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                Where do I put my images?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-gray">Place assets in <span class="fw-semibold">assets/images/</span> and keep paths consistent with the HTML.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                Can I submit this to ThemeForest?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-gray">The structure is compatible with ThemeForest expectations. You may want to add documentation and license files for a real submission.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="section final-cta">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7">
+            <h2 class="h1 fw-extrabold text-white mb-2">Ready to launch your landing page?</h2>
+            <p class="text-white-75 mb-0">Use the included sections and design tokens to ship a modern SaaS layout with confidence.</p>
+          </div>
+          <div class="col-lg-5 text-lg-end">
+            <div class="d-flex flex-column flex-sm-row justify-content-lg-end gap-3">
+              <a class="btn btn-light btn-lg" href="#home">Back to top</a>
+              <a class="btn btn-dark btn-lg" href="#">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4">
+          <div class="fw-bold h5 mb-2">Avada Builder</div>
+          <p class="text-footer mb-0">A clean, modern landing page template built with Bootstrap 5 and Inter typography.</p>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <div class="footer-title">Product</div>
+          <a class="footer-link" href="#features">Features</a>
+          <a class="footer-link" href="#builder">Builder</a>
+          <a class="footer-link" href="#allinone">All-in-one</a>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <div class="footer-title">Company</div>
+          <a class="footer-link" href="#testimonial">Reviews</a>
+          <a class="footer-link" href="#proof">Customers</a>
+          <a class="footer-link" href="#faq">FAQ</a>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="footer-title">Newsletter</div>
+          <div class="d-flex gap-2">
+            <input type="email" class="form-control" placeholder="Email address" aria-label="Email address" />
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+          <div class="text-footer small mt-2">No spam. Unsubscribe anytime.</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="text-footer small">© <span id="year"></span> Avada Builder Template. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
